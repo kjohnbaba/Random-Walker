@@ -1,17 +1,14 @@
 
 
 /*************************************************************************
- *  Compilation:  javac RandomWalker.java
- *  Execution:    java RandomWalker 10
- *
- *  @author:
- *
  * The program RandomWalker that takes an int command-line argument n
  * and simulates the motion of a random walk for n steps. Print the
  * location at each step (including the starting point), treating the
  * starting point as the origin (0, 0). Also, print the square of the
  * final Euclidean distance from the origin.
- *
+ 
+ **  Compilation:  javac RandomWalker.java
+ *  Execution:    java RandomWalker 10
  *  % java RandomWalker 10
  * (0,0)
  * (-1,0)
@@ -55,6 +52,5 @@ double sq = Math.pow(x, 2) + Math.pow(y, 2);
 
 System.out.println("Squared Distance = "+ sq);
 
-	// WRITE YOUR CODE HERE
     }
 }
