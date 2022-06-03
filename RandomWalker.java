@@ -1,8 +1,4 @@
-
-
 /*************************************************************************
- 
- 
  **  Compilation:  javac RandomWalker.java
  *  Execution:    java RandomWalker 10
  *  % java RandomWalker 10
@@ -20,7 +16,6 @@
  * Squared distance = 20.0
  *
  *************************************************************************/
-
 public class RandomWalker {
 
     public static void main(String[] args) {
@@ -47,6 +42,5 @@ System.out.println("(" + x + ", " + y + ")");
 double sq = Math.pow(x, 2) + Math.pow(y, 2);
 
 System.out.println("Squared Distance = "+ sq);
-
     }
 }
