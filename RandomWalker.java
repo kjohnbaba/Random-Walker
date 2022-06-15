@@ -14,7 +14,6 @@
  * (-2,-5)
  * (-2,-4)
  * Squared distance = 20.0
- *
  *************************************************************************/
 public class RandomWalker {
 
@@ -25,9 +24,9 @@ public class RandomWalker {
         int y = 0;
         System.out.println("(" + x + ", " + y + ")");
 
-    for (int i = 0; i<step; i++)
-    
-{ double randomizer = Math.random();
+    for (int i = 0; i<step; i++){
+        
+    double randomizer = Math.random();
     
     if (randomizer < 0.25)
  x= x+1 ;
