@@ -38,8 +38,8 @@ else if (randomizer< 1.0)
 y=y+1;
 System.out.println("(" + x + ", " + y + ")");
 }
+        
 double sq = Math.pow(x, 2) + Math.pow(y, 2);
-
 System.out.println("Squared Distance = "+ sq);
     }
 }
